@@ -3,7 +3,8 @@
  * **direction-mapping assertions** (directly targets the most frequent playtest defect). When changing the input
  * mapping you must sync the assertions here.
  *
- * Usage: npm run build && node scripts/verify-game.mjs
+ * Usage: npm run build:vercel && node scripts/verify-game.mjs
+ *   (static/local mode; a plain `npm run build` needs the Socket.IO server running, so verify it via `npm start`)
  * Serves dist/public when a backend has been grafted on, otherwise dist/.
  *
  * Notes:
