@@ -2,6 +2,10 @@
 
 Arena 2D multiplayer em tempo real para 1–8 jogadores, com salas privadas de quatro caracteres e entrada sem login. Partidas duram 3 minutos; núcleos valem 15 pontos e abates valem 100. Nos últimos 45 segundos, a arena fecha e causa dano fora do círculo seguro.
 
+## Testar online
+
+Acesse **[game-3d-app.vercel.app](https://game-3d-app.vercel.app)** para jogar direto no navegador, sem instalar nada. Nessa versão funciona o **Jogo rápido** contra bots. O multiplayer entre dispositivos e o histórico de vitórias precisam do servidor Node com MySQL (veja abaixo).
+
 ## Como jogar
 
 - **Desktop:** WASD ou setas para mover, mouse ou Espaço para disparar, Shift para impulso e P/Esc para o anfitrião pausar.
